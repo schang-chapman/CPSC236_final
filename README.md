@@ -72,9 +72,10 @@ References:
   * How to bound character within camera
 
   Known Errors:
-  * If you shoot a bullet, then turn around, the bullet will teleport to the other side of the screen, but maintain its trajectory
+  * If you shoot a bullet, then turn around before the bullet leaves the screen, the bullet will teleport to the other side of the screen, but maintain its trajectory
   * The character sometimes gets caught on seemingly nothing, cause unknown
   * The character sometimes won't jump with space bar is pressed, cause unknown
+  * There's something really funky happening with the instruction text at the bottom of the screen
 
   Removed Features:
   * Lives system: It occurred to me that the lives system was not necessary given that nothing in the maps will actually kill the player
